@@ -5,8 +5,8 @@ const server = express()
 server.use(express.json())
 server.use(express.urlencoded({ extended: false }))
 
-server.use(require('./controllers/authController'))
+require('./controllers/authController')(server)
 
-server.listen(3334, () => {
-  console.log('Server running on port 3334')
+server.listen(3333, () => {
+  console.log('Server running on port 3333')
 })
