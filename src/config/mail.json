@@ -1,0 +1,6 @@
+{
+  "host": "smtp.ethereal.email",
+  "port": 587,
+  "user": "testAccount.user",
+  "pass": "testAccount.pass"
+}
